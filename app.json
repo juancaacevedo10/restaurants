@@ -17,12 +17,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.juancaacevedo.restaurants"
     },
     "android": {
+      "package":"com.juancaacevedo.restaurants",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBz_hf-2ptpRoxDbb1LX9zj3BsiwJ3DVAc"
+        }
       },
       "permissions": [
         "CAMERA_ROLL",
