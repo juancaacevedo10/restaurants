@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "179512993914",
+    "project_id": "restaurants-296c3",
+    "storage_bucket": "restaurants-296c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179512993914:android:92b3900497bdfbe37573c3",
+        "android_client_info": {
+          "package_name": "com.juancaacevedo.restaurants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179512993914-q9j2f94l2ubo26t91h6541vt71558cte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juancaacevedo.restaurants",
+            "certificate_hash": "718b84edfa0598568460c4261a0792af570ba1da"
+          }
+        },
+        {
+          "client_id": "179512993914-pv90pvtl38ne70ma5da6s2nq32g1tusq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz_hf-2ptpRoxDbb1LX9zj3BsiwJ3DVAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179512993914-pv90pvtl38ne70ma5da6s2nq32g1tusq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "179512993914-9u14lplruq5cjqioglepk1sdbd4fa9il.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.juancaacevedo.restaurants"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

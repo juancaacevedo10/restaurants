@@ -4,6 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack'
 import Restaurant from '../screens/restaurants/Restaurant'
 import AddRestaurant from '../screens/restaurants/AddRestaurant'
 import Rest from '../screens/restaurants/Rest'
+import AddReviewRestaurant from '../screens/restaurants/AddReviewRestaurant'
 
 const Stack = createStackNavigator()
 
@@ -23,6 +24,11 @@ export default function RestaurantsStack() {
              <Stack.Screen
                 name='restaurant'
                 component={Rest}
+            />
+            <Stack.Screen
+                name='add-review-restaurant'
+                component={AddReviewRestaurant}
+                options={{title: 'Nuevo Comentario'}}
             />
         </Stack.Navigator>
     )

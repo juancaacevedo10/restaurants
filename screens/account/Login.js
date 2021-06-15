@@ -19,10 +19,25 @@ export default function Login() {
             <View style={styles.container}>
                     <LoginForm/>
                     <CreateAccount/>
+                    <RecoverPassword/>
             </View>
             <Divider style={styles.divider}></Divider>
         </KeyboardAwareScrollView>
         
+    )
+}
+
+function RecoverPassword(){
+    const navigation = useNavigation()
+    return(
+        <Text style={styles.register}
+            onPress={() => navigation.navigate('recover-Password')}
+        >
+            ¿Olvidaste tu contraseña?{' '}
+            <Text style={styles.btnRegister}>
+                Recuperala
+            </Text>
+        </Text>
     )
 }
 

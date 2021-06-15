@@ -37,10 +37,11 @@ export default function AddRestaurantForm({ toastRef, setLoading, navigation }) 
             description: formData.description,
             phone: formData.phone,
             location: locationRestaurant,
+            email: formData.email,
             images: responseUploadImages,
             rating: 0,
             ratingTotal: 0,
-            quatityVoting: 0,
+            quantityVoting: 0,
             createAt: new Date(),
             createBy: getCurrentUser().uid
         }

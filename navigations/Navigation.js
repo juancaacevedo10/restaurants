@@ -17,7 +17,7 @@ export default function Navigation() {
     const screenOptions = (route, color) => {
         let iconName
         switch (route.name) {
-            case 'restaurant':
+            case 'restaurants':
                 iconName = 'compass-outline'
                 break;
 
@@ -66,7 +66,7 @@ export default function Navigation() {
                 })}
             >
                 <Tab.Screen
-                    name='restaurant'
+                    name='restaurants'
                     component={RestaurantsStack}
                     options ={{title:'Restaurantes'}}
                 />
@@ -78,7 +78,7 @@ export default function Navigation() {
                 <Tab.Screen
                     name='top-restaurants'
                     component={TopRestaurantsStack}
-                    options ={{title:'Top 5'}}
+                    options ={{title:'Top 10'}}
                 />
                 <Tab.Screen
                     name='search'
